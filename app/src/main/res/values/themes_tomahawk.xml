@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Theme.Tomahawk" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+    <!--<style name="Theme.Tomahawk" parent="@style/Theme.AppCompat">-->
+
+        <item name="android:progressBarStyleHorizontal">@style/ProgressBarTomahawk</item>
+        <item name="android:fastScrollThumbDrawable">@drawable/apptheme_fastscroll_thumb_holo</item>
+
+        <item name="actionBarItemBackground">@drawable/selectable_background_tomahawk</item>
+        <item name="popupMenuStyle">@style/PopupMenu.Tomahawk</item>
+        <item name="actionBarStyle">@style/ActionBar.Solid.Tomahawk</item>
+        <item name="colorPrimary">@color/tomahawk_red</item>
+        <item name="colorPrimaryDark">@color/tomahawk_red</item>
+        <item name="colorAccent">@color/tomahawk_red</item>
+        <item name="android:textColorSecondary">@color/tomahawk_red</item>
+
+        <item name="android:windowEnableSplitTouch">false</item>
+        <item name="android:splitMotionEvents">false</item>
+
+        <!--<item name="android:windowBackground">@drawable/style_background</item>-->
+        <item name="android:windowBackground">@color/tertiary_transparent</item>
+        <item name="android:windowEnterAnimation">@null</item>
+        <item name="android:windowExitAnimation">@null</item>
+
+        <item name="android:windowNoTitle">true</item>
+
+
+    </style>
+
+    <style name="Theme.Tomahawk.Transparent.ActionBar" parent="@style/Theme.Tomahawk">
+
+        <item name="android:windowFullscreen">true</item>
+        <item name="actionBarStyle">@style/ActionBar.Transparent.Tomahawk</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowEnterAnimation">@null</item>
+        <item name="android:windowExitAnimation">@null</item>
+
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowTitleSize">0dp</item>
+
+
+    </style>
+
+    <style name="Theme.Tomahawk.Transparent.ActionBarSplash" parent="@style/Theme.Tomahawk">
+        <item name="android:windowBackground">@drawable/style_background</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="actionBarStyle">@style/ActionBar.Transparent.Tomahawk</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowEnterAnimation">@null</item>
+        <item name="android:windowExitAnimation">@null</item>
+
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowTitleSize">0dp</item>
+
+
+    </style>
+
+</resources>

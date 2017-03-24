@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<item>
+
+
+    <bitmap
+        android:src="@drawable/splash_moving"
+        android:tileMode="disabled" android:gravity="fill_vertical|left" />
+</item>
+
+    <item>
+
+    <bitmap xmlns:android="http://schemas.android.com/apk/res/android"
+        android:src="@drawable/logo"
+        android:tileMode="disabled" android:gravity="top|center_horizontal" >
+    </bitmap>
+
+
+</item>
+</layer-list>

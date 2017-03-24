@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/parrent_warpper"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#23241E" >
+
+<RelativeLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:layout_margin="0dp"
+    android:background="#ebeaeb"
+  >
+
+
+
+    <helper.custom.MovingImageViewView2
+        android:id="@+id/movingImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/logoImage"
+        android:src="@drawable/logo"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+
+        android:adjustViewBounds="true" />
+
+
+        <!--<ImageView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:id="@+id/splashImage"-->
+            <!--android:background="@drawable/splash"-->
+            <!---->
+            <!--&gt;-->
+        <!--</ImageView>-->
+
+
+
+
+
+    <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/continue_dialog_button"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_marginBottom="50dp"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:background="#367e1e"-->
+        <!--android:layout_marginLeft="50dp"-->
+        <!--android:layout_marginRight="50dp"-->
+        <!--&gt;-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+            <!--android:text="@string/continue_label"-->
+            <!--android:id="@+id/textView2"-->
+            <!--android:layout_margin="15dp"-->
+            <!--android:textColor="#ffffff"-->
+            <!--android:layout_centerInParent="true"-->
+            <!--android:gravity="center_horizontal" />-->
+    <!--</RelativeLayout>-->
+
+
+
+
+
+</RelativeLayout>
+
+</RelativeLayout>
